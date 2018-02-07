@@ -6,7 +6,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/goinaction/code/chapter3/words"
+	//this is the relative path
+	"../words"
+	//the origin source
+	//"github.com/goinaction/code/chapter3/words"
 )
 
 // main is the entry point for the application.
