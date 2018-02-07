@@ -5,7 +5,10 @@ package main
 import (
 	"database/sql"
 
-	_ "github.com/goinaction/code/chapter3/dbdriver/postgres"
+	//this is the relative path
+	_ "./postgres"
+	//this is the origin source
+	//_ "github.com/goinaction/code/chapter3/dbdriver/postgres"
 )
 
 // main is the entry point for the application.
